@@ -1,6 +1,8 @@
 package com.koko.design.patterns.behavioral.command;
 
-/** The Receiver class */
+/**
+ * The Receiver class
+ */
 public class Light {
 
 	public void turnOn() {

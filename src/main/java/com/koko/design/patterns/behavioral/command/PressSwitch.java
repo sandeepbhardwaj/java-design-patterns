@@ -17,15 +17,15 @@ public class PressSwitch {
 		final Switch mySwitch = new Switch();
 
 		switch (arguments[0]) {
-		case "ON":
-			mySwitch.storeAndExecute(switchUp);
-			break;
-		case "OFF":
-			mySwitch.storeAndExecute(switchDown);
-			break;
-		default:
-			System.err.println("Argument \"ON\" or \"OFF\" is required.");
-			System.exit(-1);
+			case "ON":
+				mySwitch.storeAndExecute(switchUp);
+				break;
+			case "OFF":
+				mySwitch.storeAndExecute(switchDown);
+				break;
+			default:
+				System.err.println("Argument \"ON\" or \"OFF\" is required.");
+				System.exit(-1);
 		}
 	}
 }

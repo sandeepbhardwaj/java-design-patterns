@@ -1,6 +1,8 @@
 package com.koko.design.patterns.behavioral.command;
 
-/** The Command for turning off the light - ConcreteCommand #2 */
+/**
+ * The Command for turning off the light - ConcreteCommand #2
+ */
 public class FlipDownCommand implements Command {
 	private Light theLight;
 
